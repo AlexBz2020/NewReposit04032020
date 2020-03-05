@@ -1,0 +1,218 @@
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart
+$ git clone https://github.com/AlexBz2020/NewReposit04032020.git
+Cloning into 'NewReposit04032020'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 605 bytes | 46.00 KiB/s, done.
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart
+$ cd NewReposit04032020
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git add .
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git add .
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git add .
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        123.txt
+
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git add .
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   123.txt
+        modified:   README.md
+
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   123.txt
+        modified:   README.md
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    123.txt
+
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git add .
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git commit -m "Comment"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'User@WIN-LK8IN05GN0I.(none)')
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git config --global user.email "ol123bz@gmail.com"
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git config --global user.name "AlexBz2020"
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git commit -m "Comment"
+[master 7e0e72e] Comment
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git log
+commit 7e0e72ed53c531eb9d4640c6f7a8182fa6a8e005 (HEAD -> master)
+Author: AlexBz2020 <ol123bz@gmail.com>
+Date:   Wed Mar 4 15:09:24 2020 +0200
+
+    Comment
+
+commit b060b5aa5502c6fcd4ac7b267fe9c7e56f8e1e74 (origin/master, origin/HEAD)
+Author: AlexBz2020 <61787493+AlexBz2020@users.noreply.github.com>
+Date:   Wed Mar 4 14:44:23 2020 +0200
+
+    Initial commit
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/AlexBz2020/NewReposit04032020.git/'
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+Username for 'https://github.com': AlexBz2020
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 309 bytes | 154.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/AlexBz2020/NewReposit04032020.git
+   b060b5a..7e0e72e  master -> master
+
+User@WIN-LK8IN05GN0I MINGW64 /e/Git/03 03 2020GitStart/NewReposit04032020 (master)
+$

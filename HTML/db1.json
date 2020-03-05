@@ -1,0 +1,15 @@
+var MainArray1 = [
+{"Кеу":1001,"Question":"Is it an apple?","Answer":"No, It's a pear","TranslQuestion":"Это яблоко?","TranslAnswer":"Нет, это груша"},
+{"Кеу":1002,"Question":"Have you ever eaten frogs ’legs?","Answer":"No, I’ve never eaten frogs ’legs.","TranslQuestion":"Вы когда-нибудь ели лягушачьи лапки?","TranslAnswer":"Нет, я никогда не ел лягушачьи лапки."},
+{"Кеу":1003,"Question":"Have you ever slept on the floor?","Answer":"Yes, I have slept on the floor.","TranslQuestion":"Вы когда-нибудь спали на полу?","TranslAnswer":"Да, я спал на полу."},
+{"Кеу":1004,"Question":"Have you ever got up later than midday?","Answer":"No, I’ve never got up later than midday.","TranslQuestion":"Вы когда-нибудь вставали позже полудня?","TranslAnswer":"Нет, я никогда не вставал позже полудня."},
+{"Кеу":1005,"Question":"Do you usually go to bed before or after midnight?","Answer":"I usually go to bed before midnight","TranslQuestion":"Вы обычно ложитесь спать до или после полуночи?","TranslAnswer":"Я обычно ложусь спать до полуночи"},
+{"Кеу":1006,"Question":"What is the verb form of to drive ?","Answer":"The verb form of to drive is : drive drove driven.","TranslQuestion":"Какая форма глагола водить?","TranslAnswer":"Форма глагола «водить» - «водить, водить, водить»."},
+{"Кеу":1007,"Question":"Can you drive ?","Answer":"Yes, I can drive.","TranslQuestion":"Умеешь водить ?","TranslAnswer":"Да, я умею водить."},
+{"Кеу":1008,"Question":"Have you got a car ?","Answer":"Yes, I’ve got a car.","TranslQuestion":"У тебя есть машина ?","TranslAnswer":"Да, у меня есть машина."},
+{"Кеу":1009,"Question":"Is there anything you did when you were a child that you have stopped doing now ?","Answer":"Yes, I played with toys when I was a child.","TranslQuestion":"Есть ли что-то, что вы делали, когда были ребенком, что вы перестали делать сейчас?","TranslAnswer":" Да, я играл с игрушками, когда был ребенком."},
+{"Кеу":1010,"Question":"What are the two opposites of the verb to stop ?*","Answer":"The two opposites of the verb to stop are : go and start.","TranslQuestion":"Каковы две противоположности глагола, чтобы остановиться?","TranslAnswer":"Две противоположности глагола, чтобы остановиться: иди и начинай."},
+{"Кеу":1011,"Question":"Have you ever stopped speaking to someone because you were angry with them ?","Answer":"Yes, I’ve stopped speaking to my father because I was angry with him.","TranslQuestion":"Вы когда-нибудь переставали говорить с кем-то, потому что вы злились на них?","TranslAnswer":" Да, я перестал разговаривать с отцом, потому что был зол на него."}
+
+
+];
